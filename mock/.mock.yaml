@@ -1,0 +1,18 @@
+logger:
+  level: info
+server:
+  port: 8090
+  env: "test"
+database:
+  user: root
+  password: 111111
+  host: localhost
+  port: 3306
+  dbname: "mock"
+  db-mod: "rw"
+  log-level: "info"
+  log-color: true
+  batch-size: 100
+  max-idel-conns: 20
+  max-open-conns: 200
+  conn-max-lifetime: 60
